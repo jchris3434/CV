@@ -1,6 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar'
+import { opak } from "../style/header.module.css"
 
 export default function Hero() {
   return (
@@ -35,7 +36,7 @@ export default function Hero() {
         }}
       >
         {/* Any content here will be centered in the component */}
-        <Navbar />
+        <Navbar className={opak} />
       </div>
     </div>
   )
