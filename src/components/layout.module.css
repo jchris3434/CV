@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   /* max-width: 500px; */
-  font-family: sans-serif;
+  font-family: "Open Sans"
 }
 
 /* .heading {
@@ -48,7 +48,7 @@
   }
 
   .bgDark {
-    --bs-bg-opacity: 0.2;
+    --bs-bg-opacity: 0.2 !important;
   }
 }
 

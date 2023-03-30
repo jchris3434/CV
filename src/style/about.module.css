@@ -14,14 +14,26 @@
 
 .imageET {
     margin-top: 2rem !important;
-    margin-left: 2rem;
 }
 
 .separator {
     color: rgb(115, 192, 209);
     border-top-width: 2px;
   }
+ 
   
-  
-  
+@media screen and (max-width: 767px) {
+    .about {
+        display: none;
+    }
+
+    .imageET {
+        width: 100%;
+        max-width: 200px; /* la largeur maximale de l'image */
+      }
+
+      .textContainer {
+        margin: 0 1rem;
+      }
+}
   
