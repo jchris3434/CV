@@ -7,17 +7,17 @@ import {
     customToggler,
     navbarTogglerIcon,
     walakIcon,
-    navbarSupportedContent
+    bgDark,
   } from './layout.module.css'
   import { StaticImage } from "gatsby-plugin-image"
 
   const Navbar = ({ pageTitle, children }) => {
     return (
       <div className={`${container} ${navopacity}`}>
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-          <div className="container-fluid d-flex align-items-center justify-content-center">
+        <nav className={`navbar navbar-expand-md navbar-dark bg-dark ${bgDark}`}>
+          <div className="container-fluid">
             <StaticImage
-              className={`${walakIcon} d-none d-md-block`}
+              className={`${walakIcon} d-none d-lg-block`}
               src="../images/walak.png"
               alt="alien"
               width={50}
@@ -34,31 +34,30 @@ import {
               <span className={`navbar-toggler-icon ${navbarTogglerIcon}`}></span>
             </button>
   
-            <div className="collapse navbar-collapse" id={navbarSupportedContent}>
-  <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white mx-auto text-center">
-    <li className="nav-item">
-      <a className="nav-link active text-white" aria-current="page" href="#">
-        Accueil
-      </a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link active text-white" aria-current="page" href="#">
-        A Propos
-      </a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link text-white" href="#">
-        CV
-      </a>
-    </li>
-    <li className="nav-item">
-      <a className="nav-link text-white" href="#">
-        Dernier Projet
-      </a>
-    </li>
-  </ul>
-</div>
-
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                <li className="nav-item">
+                  <a className="nav-link active text-white" aria-current="page" href="#">
+                    Accueil
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link active text-white" aria-current="page" href="#">
+                    A Propos
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    CV
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    Dernier Projet
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
   
@@ -68,12 +67,6 @@ import {
         </main>
       </div>
     );
-  };
-  ;
+  }
   
-  
-  
-  
-
-  
-  export default Navbar
+  export default Navbar;
