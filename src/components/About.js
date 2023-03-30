@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { textJC, textName, imageET, separator } from "../style/about.module.css";
+import { textJC, textName, imageET, separator, policeTitle } from "../style/about.module.css";
 
 export default function About() {
 return (
@@ -13,8 +13,8 @@ return (
         style={{ marginRight: "1rem" }}
     />
     <div className={`${textJC} col-8`}>
-    <h4>A Propos de moi</h4>
-    <h1 className={textName}>Jean-Christophe Fontaine</h1>
+    <h4 className={policeTitle}>A Propos de moi</h4>
+    <h1 className={`${textName} ${policeTitle}`}>Jean-Christophe Fontaine</h1>
     <hr className={separator} />
     <p>Après plusieurs années passées dans l'industrie hôtelière de luxe à travers le monde, j'ai décidé de revenir à Montpellier et entrepris des études en développement informatique à l'école Beweb. J'ai ainsi <strong>obtenu mon titre de développeur web & web mobile</strong>.</p>
     <p>Je suis actuellement à la recherche d'un contrat de professionnalisation pour continuer en <strong>Bachelor DEVOPS : Concepteur et Développeur d'Application</strong>. Niv6 <strong>ou d’un premier poste junior</strong> !</p>
