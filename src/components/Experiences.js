@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { paddingDate, sectionText, cvTitle, policeTitle, curry, separator, technos, hobby, separator2 } from "../style/experiences.module.css";
+import { paddingDate, sectionText, cvTitle, policeTitle, curry, separator, technos, hobby, separator2, denver } from "../style/experiences.module.css";
 
 export default function Experiences() {
     return (
@@ -10,7 +10,7 @@ export default function Experiences() {
             <div className={`${curry} col-4`}>
                 <p className={paddingDate}> VITAE</p>
             </div>
-            <div class="col">
+            <div className={`${denver} col`}>
                 <h2>Formations</h2>
                 <div>
                     <p className={paddingDate}>Ecole BEWEB Montpellier - Titre Pro Niv5 Développeur Web & Web Mobile</p>
@@ -25,7 +25,7 @@ export default function Experiences() {
                     <p>2004 - 2006</p>
                 </div>
             </div>
-            <div class="col">
+            <div className={`${denver} col`}>
                 <h2>Expériences Digitales</h2>
                 <div>
                     <h4>Développeur Full Stack | Montpellier</h4>
