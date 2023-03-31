@@ -9,3 +9,9 @@
   /* background-color: transparent !important; */
   background-color: red;
 }
+
+/* @media screen and (max-width: 767px) {
+  .cosmoSize {
+    aspectRatio={3 / 1}
+  }
+} */

@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header';
 import PageFooter from '../components/PageFooter';
 import About from '../components/About';
-import { StaticImage } from 'gatsby-plugin-image';
+import Experiences from '../components/Experiences';
 
 const IndexPage = () => {
   return (
@@ -11,8 +11,9 @@ const IndexPage = () => {
       <section>
         <Header />
         <About />
+        <Experiences/>
       </section>      
-      <PageFooter />
+      {/* <PageFooter /> */}
     </Layout>
   )
 }

@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) {
+    
+    .sectionText {
+        text-align: justify;
+        margin-top: 3rem;
+    }     
+
+    .cvTitle {
+        display: none;
+    }
+      
+}
+
+.paddingDate {
+    margin: 0;
+}
+
+.separator {
+    margin-top:10rem;
+    color: rgb(115, 192, 209);
+    border-top-width: 2px;
+}
+.separator2 {
+    margin-top: -3rem;
+    color: rgb(115, 192, 209);
+    border-top-width: 2px;
+}
+
+.policeTitle {
+    font-family: "Delicious Handrawn";
+}
+
+h2 {
+    font-family: "Delicious Handrawn";
+    color: rgb(29, 165, 215);
+}
+
+
+
+.curry {
+    color: rgb(29, 165, 215);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center vertically */
+}
+
+.technos {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+    
+    .curry {
+        display: none;
+    }
+
+    .hobby {
+        margin: 0;
+    }
+
+    .sectionText {
+        margin: 0 1rem;
+    }
+
+    .policeTitle {
+        font-family: "Delicious Handrawn";
+        font-size: 2rem;
+    }
+
+    .cvTitle {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: rgb(29, 165, 215);
+    }
+
+    .technos {
+        width: 110%;
+        margin-top: 3.5rem;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .separator2 {
+        margin-top: 0rem;
+    }
+}

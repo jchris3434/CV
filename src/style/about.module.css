@@ -7,6 +7,7 @@
 
 .policeTitle {
     font-family: "Delicious Handrawn";
+    color: rgb(29, 165, 215);
 }
 
 .textName {
@@ -21,7 +22,7 @@
 .separator {
     color: rgb(115, 192, 209);
     border-top-width: 2px;
-  }
+}
  
   
 @media screen and (max-width: 767px) {
