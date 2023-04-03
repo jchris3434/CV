@@ -4,14 +4,16 @@ import Header from '../components/Header';
 import PageFooter from '../components/PageFooter';
 import About from '../components/About';
 import Experiences from '../components/Experiences';
+import Project from '../components/Project';
 
 const IndexPage = () => {
   return (
     <Layout>
       <section>
-        <Header />
+        <Header/>
         <About />
-        <Experiences/>
+        <Experiences />
+        <Project />
       </section>      
       {/* <PageFooter /> */}
     </Layout>

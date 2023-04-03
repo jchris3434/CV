@@ -3,12 +3,8 @@ import { Link } from 'gatsby'
 import {
   container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
 } from './layout.module.css'
 import { Helmet } from 'react-helmet'
-import Navbar from '../components/navbar'
 
 
 const Layout = ({ pageTitle, children }) => {

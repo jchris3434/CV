@@ -8,13 +8,14 @@ import {
     navbarTogglerIcon,
     walakIcon,
     bgDark,
+    camion
   } from './layout.module.css'
   import { StaticImage } from "gatsby-plugin-image"
 
   const Navbar = ({ pageTitle, children }) => {
     return (
       <div className={`${container} ${navopacity}`}>
-        <nav className={`navbar navbar-expand-md navbar-dark bg-dark ${bgDark}`}>
+        <nav className={`navbar navbar-expand-md navbar-dark bg-dark ${camion} ${bgDark}`}>
           <div className="container-fluid">
             <StaticImage
               className={`${walakIcon} d-none d-lg-block`}
@@ -54,6 +55,11 @@ import {
                 <li className="nav-item">
                   <a className="nav-link text-white" href="#">
                     Dernier Projet
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    Contact
                   </a>
                 </li>
               </ul>

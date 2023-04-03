@@ -7,7 +7,7 @@ export default function About() {
 return (
 <div className={`${cuerpo} row`} style={{ display: "flex", alignItems: "center" }}>
 <StaticImage
-    class={`${imageET} col-sm-12 col-md-2 img-thumbnail mx-auto`}
+    className={`${imageET} col-sm-12 col-md-2 img-thumbnail mx-auto`}
     src="../images/jc-juin.jpg"
     alt="Ma photo"
     width={400}

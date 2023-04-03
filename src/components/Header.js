@@ -1,17 +1,20 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar'
-import { opak } from "../style/header.module.css"
+import { opak, cheval } from "../style/header.module.css"
 
 export default function Hero() {
   return (
     <div style={{ display: "grid" }}>
       {/* You can use a GatsbyImage component if the image is dynamic */}
-      <StaticImage
+      <StaticImage      
         style={{
           gridArea: "1/1",
           // You can set a maximum height for the image, if you wish.
           // maxHeight: 600,
+          margin: 0,
+          marginTop: 0,
+          marginRight: 0
         }}
         layout="fullWidth"
         // You can optionally force an aspect ratio for the generated image
