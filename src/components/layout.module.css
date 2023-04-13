@@ -1,10 +1,14 @@
 .container {
-  margin: auto;
+  /* margin: auto; */  
   font-family: "Open Sans";
 }
 
 .cheval {
   margin-top: 0 !important;
+}
+
+.camion {
+  margin-top: -0.5rem;
 }
 
 .nav-links {
@@ -33,7 +37,11 @@
 }
 
 .walakIcon {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  border-radius: 10px;
+  box-shadow:  -8px 8px 12px #0cf52f;
+              
+  
 }
 
 #navbarSupportedContent {
@@ -51,9 +59,24 @@
     --bs-bg-opacity: 0.2 !important;
   }
 
+
   .container {
     margin-top: -1rem;
   }
+
+  .navMarge {
+    margin-top: 2rem !important;
+  }
+
+  .customToggler {
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+    border: solid;
+    border-width: 1px;
+    font-size: 1rem;
+  }
+
 
 }
 

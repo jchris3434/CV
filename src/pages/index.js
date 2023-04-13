@@ -5,15 +5,17 @@ import PageFooter from '../components/PageFooter';
 import About from '../components/About';
 import Experiences from '../components/Experiences';
 import Project from '../components/Project';
+import Contact from '../components/Contact';
 
 const IndexPage = () => {
   return (
     <Layout>
-      <section>
+      <section style={{position: "relative"}}>
         <Header/>
         <About />
         <Experiences />
         <Project />
+        <Contact />
       </section>      
       {/* <PageFooter /> */}
     </Layout>

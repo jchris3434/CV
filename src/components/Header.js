@@ -1,19 +1,19 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar'
-import { opak, cheval } from "../style/header.module.css"
+import { mess1, mess2 } from "../style/header.module.css"
 
 export default function Hero() {
   return (
     <div style={{ display: "grid" }}>
       {/* You can use a GatsbyImage component if the image is dynamic */}
-      <StaticImage      
+      <StaticImage    
         style={{
           gridArea: "1/1",
           // You can set a maximum height for the image, if you wish.
           // maxHeight: 600,
           margin: 0,
-          marginTop: 0,
+          marginTop: "-1rem",
           marginRight: 0
         }}
         layout="fullWidth"
@@ -39,7 +39,9 @@ export default function Hero() {
         }}
       >
         {/* Any content here will be centered in the component */}
-        <Navbar className={opak} />
+        <Navbar />
+        <p id="message1" className={mess1}>HELLO</p>
+        <p id="message2" className={mess2}>WALAAXY</p>
       </div>
     </div>
   )

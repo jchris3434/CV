@@ -5,11 +5,14 @@
     height: 80%;
 }
 
-.opak {
-  /* background-color: transparent !important; */
+.mess1 {
+  margin-top: 7rem;
+  margin-left: 7rem;
   background-color: red;
 }
 
-.cheval {
-  margin-top: 0 !important;
+.mess2 {
+  margin-top: 12rem;
+  margin-left: 90rem;
+  background-color: rgb(23, 180, 247);
 }
