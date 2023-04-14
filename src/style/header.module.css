@@ -1,3 +1,4 @@
+
 .back {
     background-image: url("../images/photo2.jpg");
     background-size: cover;
@@ -5,14 +6,42 @@
     height: 80%;
 }
 
+@media (max-width: 768px) {
 .mess1 {
-  margin-top: 7rem;
-  margin-left: 7rem;
-  background-color: red;
+  margin-top: 5vh;
+  margin-left: 6vw;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 4vw;
 }
 
 .mess2 {
-  margin-top: 12rem;
-  margin-left: 90rem;
-  background-color: rgb(23, 180, 247);
+  margin-top: 2.5vh;
+  margin-left: 71vw;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 4vw
 }
+}
+
+@media (min-width: 769px) {
+  .mess1 {
+    margin-top: 12vh;
+    margin-left: 8vw;
+    font-family: "Press Start 2P";
+    color: white;
+    font-size: 3vw;
+  }
+  
+  .mess2 {
+    margin-top: 18vh;
+    margin-left: 75vw;
+    font-family: "Press Start 2P";
+    color: white;
+    font-size: 3vw
+  }
+}
+
+
+
+

@@ -61,6 +61,12 @@
     color: rgb(115, 192, 209);
     border-top-width: 2px;
 }
+
+.unicornIcon {
+    width: 3rem;
+    margin-left: 22.8rem; 
+    margin-top: -2.2rem;        
+}
  
   
 @media screen and (max-width: 767px) {
@@ -76,5 +82,7 @@
       .textContainer {
         margin: 0 1rem;
       }
+
+      
 }
   

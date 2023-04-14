@@ -19,7 +19,7 @@ module.exports = {
         web: [
           {
             name: `Open Sans`,
-            file: `https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans:wght@400;600;700&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans:wght@400;600;700&family=Press+Start+2P&display=swap`,
           },
         ],
       },

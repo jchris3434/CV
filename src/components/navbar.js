@@ -68,10 +68,10 @@ import {
           </div>
         </nav>
   
-        <main>
+        {/* <main>
           <h1 className={heading}>{pageTitle}</h1>
           {children}
-        </main>
+        </main> */}
       </div>
     );
   }

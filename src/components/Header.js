@@ -1,9 +1,35 @@
-import * as React from "react"
+// import * as React from "react"
+import React, { useState, useEffect } from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar'
 import { mess1, mess2 } from "../style/header.module.css"
 
 export default function Hero() {
+  const [helloText, setHelloText] = useState("");
+  const [walaaxyText, setWalaaxyText] = useState("");
+
+useEffect(() => {
+  const timeoutId = setTimeout(() => {
+    const helloIntervalId = setInterval(() => {
+      setHelloText((prevText) => {
+        if (prevText === "HELLO") {
+          clearInterval(helloIntervalId);
+          const walaaxyIntervalId = setInterval(() => {
+            setWalaaxyText((prevText) => prevText + "WALAAXY".charAt(prevText.length));
+            if (walaaxyText === "WALAAXY") {
+              clearInterval(walaaxyIntervalId);
+            }
+          }, 250);
+        }
+        return prevText + "HELLO".charAt(prevText.length);
+      });
+    }, 250);
+  }, 1500);
+  return () => clearTimeout(timeoutId);
+}, []);
+
+  
+
   return (
     <div style={{ display: "grid" }}>
       {/* You can use a GatsbyImage component if the image is dynamic */}
@@ -40,8 +66,10 @@ export default function Hero() {
       >
         {/* Any content here will be centered in the component */}
         <Navbar />
-        <p id="message1" className={mess1}>HELLO</p>
-        <p id="message2" className={mess2}>WALAAXY</p>
+        <p id="message1" className={mess1}>
+          {helloText}
+        </p>
+        <p id="message2" className={mess2}>{walaaxyText}</p>
       </div>
     </div>
   )
