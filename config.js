@@ -6,7 +6,7 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
+      icon: 'fab fa-github',
       name: 'Github',
       url: 'https://github.com/jchris3434',
     },
