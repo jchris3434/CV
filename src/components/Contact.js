@@ -1,44 +1,34 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-// import { card, contactIcon } from "../style/contact.module.css";
+import { card, contactIcon, imageBackg, sectionBox, coco, cocoTitle, avatar } from "../style/contact.module.css";
 import config from '../../config';
 
 export default function Contact() {
-  React.useEffect(() => {
-    const element = document.getElementById("message");
-    if (!element) return;
-
-    setTimeout(() => {
-      const message = "développeur";
-      element.textContent = message;
-
-      const delay = 300;
-      const length = "développeur".length;
-      const intervalId = setInterval(() => {
-        const text = element.textContent;
-        const newText = text.slice(0, text.length - 1);
-        element.textContent = newText;
-        if (newText.length === text.length - length) {
-          clearInterval(intervalId);
-        }
-      }, delay);
-    }, 2000);
-  }, []);
 
 return (
-<section>
-  <div className="card" style={{ width: "18rem" }}>
-    <StaticImage src="../images/jc-juin.jpg" alt="Johny Walker" />
-    <div className="card-body">
-      <p className="card-text">
-        Some quick example text to build on the card title and make up the bulk of the card's content.
-      </p>
+<section className={sectionBox}>
+  <div>
+    <StaticImage 
+      alt="image manquante"
+      src="../images/back-contact.jpg"
+      className={imageBackg}
+    />
+
+    <div className={card}>
+      <StaticImage
+        className={avatar} 
+        src="../images/avatar-jc-4.png"
+        alt="Johny Walker" />
+      <div className={`card-body`}>
+        <h1 className={`${coco} ${cocoTitle} card-text`}>{config.authorName}</h1>
+        <p className={`${coco} card-text`}>{config.heading}</p>
+      </div>
+      {/* div footer avec les icones */}
+      <div>
+        <p>{config.socialLinks[0].icon}</p>
+      </div>
     </div>
   </div>
-  <div>
-    <p>Bonjour je suis à la recherche d'un poste de <span id="message"></span></p>    
-  </div>  
 </section>
-
 );
 }

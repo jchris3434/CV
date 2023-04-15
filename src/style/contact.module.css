@@ -1,3 +1,54 @@
-.camion {
-    clear: both;
+.sectionBox { 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.imageBackg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  
+.card {
+    width:55vh;
+    height: 60vh;
+    text-align: center;
+
+    /* Glassmorphism card effect */
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.coco {
+    color: red;
+}
+
+.cocoTitle{
+    margin-top: 1rem;
+}
+
+.avatar {
+    width: 14vh;    
+    border-radius: 10px;
+    margin-top: 4vh;
+}
+
+  
