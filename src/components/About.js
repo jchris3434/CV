@@ -1,11 +1,11 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { textJC, textName, imageET, separator, policeTitle, about, cuerpo,textContainer, unicornIcon
+import { textJC, textName, imageET, separator, policeTitle, about, textContainer, unicornIcon
  } from "../style/about.module.css";
 
 export default function About() {
 return (
-<div className={`${cuerpo} row`} style={{ display: "flex", alignItems: "center" }}>
+<div className={`row`} style={{ display: "flex", alignItems: "center" }}>
 <StaticImage
     className={`${imageET} col-sm-12 col-md-2 img-thumbnail mx-auto`}
     src="../images/jc-juin.jpg"

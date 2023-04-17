@@ -27,13 +27,13 @@ return (
       {/* div footer avec les icones */}
       <div className={socialIcons}>
         <div className={iconCircle}>
-          <a class="fab fa-github" href={config.socialLinks[0].url}></a>
+          <a class="fab fa-github" href={config.socialLinks[0].url} aria-label="Lien vers le profil GitHub"></a>
         </div>
         <div className={iconCircle}>
-          <a class="fab fa-linkedin" href={config.socialLinks[1].url}></a>
+          <a class="fab fa-linkedin" href={config.socialLinks[1].url} aria-label="Lien vers le profil Linkedin"></a>
         </div>        
         <div className={iconCircle}>
-          <a class="far fa-envelope" href={config.socialLinks[2].url}></a>  
+          <a class="far fa-envelope" href={config.socialLinks[2].url} aria-label="Lien vers email"></a>  
         </div>        
       </div>
     </div>

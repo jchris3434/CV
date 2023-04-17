@@ -2,7 +2,6 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {
   container,
-  heading,
 } from './layout.module.css'
 import { Helmet } from 'react-helmet'
 
@@ -21,7 +20,7 @@ const Layout = ({ pageTitle, children }) => {
         ></script>
       </Helmet>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
+        <h1>{pageTitle}</h1>
         {children}
       </main>
     </div>
