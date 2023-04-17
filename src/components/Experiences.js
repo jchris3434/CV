@@ -6,7 +6,7 @@ export default function Experiences() {
     return (
     <section className={sectionText}>
         <h3 className={`${cvTitle} ${policeTitle}`}>Curriculum Vitae</h3>
-        <div class="row">
+        <div className={"row"}>
             <div className={`${curry} col-4`}>
                 <p className={paddingDate}> VITAE</p>
             </div>
@@ -36,11 +36,11 @@ export default function Experiences() {
                 </div>
             </div>                       
         </div>
-        <div class="row">
+        <div className={"row"}>
         <div className={`${curry} col-4`}>
             <p className={paddingDate}>CURRICULUM</p>
         </div>
-            <div class="col">
+            <div className={"col"}>
                 <h2>Softs Skills</h2>
                 <div>
                     <p className={paddingDate}>Langues</p>
@@ -55,21 +55,21 @@ export default function Experiences() {
                     <p className={paddingDate}>Curiosité</p>
                     <p>Autonomie</p>
                 </div>
-                <div class="row">
-            <div  class="col-5">
+                <div className={"row"}>
+            <div  className={"col-5"}>
                 <h2>Loisirs</h2>
-                <div class="row">
+                <div className={"row"}>
                     <p className={`${hobby} col`}>Badminton</p>
                     <p className={`${hobby} col`}>Voyages</p>
                 </div>
-                <div class="row">
+                <div className={"row"}>
                     <p className={`${hobby} col`}>Cuisine</p>
                     <p className={`${hobby} col`}>Poker</p>
                 </div>
             </div>           
             </div>
             </div>
-            <div class="col">
+            <div className={"col"}>
                 <h2>Expériences Antérieures</h2>
                 <div>
                     <p className={paddingDate}>L'accoudoir | Montpellier 2019-2021</p>

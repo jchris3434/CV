@@ -22,11 +22,11 @@ return (
         <p>Après plusieurs années passées dans l'industrie hôtelière de luxe à travers le monde, j'ai décidé de revenir à Montpellier et entrepris des études en développement informatique à l'école Beweb. J'ai ainsi <strong>obtenu mon titre de développeur web & web mobile</strong>.</p>
         <p>Je suis actuellement à la recherche d'un contrat de professionnalisation pour continuer en <strong>Bachelor DEVOPS : Concepteur et Développeur d'Application Niv6 à L'EPSI</strong> !</p>
         <div>
-        <p>Je serais ravi de travailler au sein de votre future <StaticImage
+        <div>Je serais ravi de travailler au sein de votre future <StaticImage
               className={`${unicornIcon} d-block`}
               src="../images/unicorn.png"
               alt="licorne"              
-            /></p>
+            /></div>
         </div>
         <p>Au cours de ma formation, j'ai eu l'opportunité d'apprendre différents langages (voir section Technique). J'ai également effectué un stage chez Osmova, où j'ai travaillé avec <strong>node.js (+feathers.js pour l'API)</strong> pour le back-end et <strong>Quasar (framework Vue.js) et Pinia</strong> pour le front-end, dans le cadre de la réalisation d'une application de gestion de clients et devis. Aperçu dans la section Dernier Projet.</p>
     </div>
