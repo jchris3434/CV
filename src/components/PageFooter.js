@@ -1,10 +1,10 @@
 import React from 'react';
-import config from '../../config';
+import { backFooter, footerWrapper } from './layout.module.css'
 
 export default function PageFooter() {
   return (
-    <footer id="footer">
-      <div>
+    <footer className={footerWrapper}>
+      <div className={backFooter}>
           Fait pour Waalaxy avec NODE.JS + React :)
       </div>
     </footer>
