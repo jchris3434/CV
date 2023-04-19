@@ -22,9 +22,7 @@ return (
       <div className={`card-body`}>
         <h1 className={`${coco} ${cocoTitle} card-text`}>{config.authorName}</h1>
         <p className={`${coco} card-text`}>{config.heading}</p>
-      </div>
-
-      {/* div footer avec les icones */}
+        {/* div footer avec les icones */}
       <div className={socialIcons}>
         <div className={iconCircle}>
           <a className={"fab fa-github"} href={config.socialLinks[0].url} aria-label="Lien vers le profil GitHub"></a>
@@ -36,6 +34,9 @@ return (
           <a className={"far fa-envelope"} href={config.socialLinks[2].url} aria-label="Lien vers email"></a>  
         </div>        
       </div>
+      </div>
+
+      
     </div>
   </div>
 </section>
