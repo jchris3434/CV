@@ -4,7 +4,7 @@ import { paddingDate, sectionText, cvTitle, policeTitle, curry, separator, techn
 
 export default function Experiences() {
     return (
-    <section className={sectionText}>
+    <section id="expCv" className={sectionText}>
         <h3 className={`${cvTitle} ${policeTitle}`}>Curriculum Vitae</h3>
         <div className={"row"}>
             <div className={`${curry} col-4`}>

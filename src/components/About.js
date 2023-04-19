@@ -5,6 +5,7 @@ import { textJC, textName, imageET, separator, policeTitle, about, textContainer
 
 export default function About() {
 return (
+<section id="about">
 <div className={`row`} style={{ display: "flex", alignItems: "center" }}>
 <StaticImage
     className={`${imageET} col-sm-12 col-md-2 img-thumbnail mx-auto`}
@@ -34,6 +35,7 @@ return (
     <hr className={separator} />
   </div>
 </div>
+</section>
 
 )
 }

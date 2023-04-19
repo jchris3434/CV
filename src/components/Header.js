@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import Navbar from '../components/navbar'
-import { mess1, mess2,} from "../style/header.module.css"
+import { mess1, mess2 } from "../style/header.module.css"
 
 export default function Hero() {
   const [helloText, setHelloText] = useState("");

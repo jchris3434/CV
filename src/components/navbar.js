@@ -1,8 +1,7 @@
 import * as React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import {
     container,
-    heading,
     navopacity,
     customToggler,
     walakIcon,
@@ -38,27 +37,22 @@ import {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className={`navbar-nav mx-auto text-center ${navMarge}`}>
                 <li className="nav-item">
-                  <a className="nav-link active text-white" aria-current="page" href="#">
-                    Accueil
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active text-white" aria-current="page" href="#">
+                  <a className="nav-link active text-white" aria-current="page" href="#about">
                     A Propos
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#">
+                  <a className="nav-link text-white" href="#expCv">
                     CV
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#">
+                  <a className="nav-link text-white" href="#projet">
                     Dernier Projet
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#">
+                  <a className="nav-link text-white" href="#contact">
                     Contact
                   </a>
                 </li>

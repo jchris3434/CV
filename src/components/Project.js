@@ -7,7 +7,7 @@ import { video, container, imageBackg, content, titleFullWidth, paragFullWidth1,
 export default function Project() {
     
 return (
-    <section>
+    <section id="projet">
         <div className={container} style={{position: "relative"}}>           
             <StaticImage 
             alt="image manquante"
