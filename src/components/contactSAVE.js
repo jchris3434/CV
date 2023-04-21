@@ -1,19 +1,20 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { container, titleFullWidth, card, socialIcons, imageBackg, sectionBox, coco, cocoTitle, avatar, iconCircle } from "../style/contact.module.css";
+import { card, socialIcons, imageBackg, sectionBox, coco, cocoTitle, avatar, iconCircle } from "../style/contact.module.css";
 import config from '../../config';
 
 export default function Contact() {
 
 return (
-<section id="projet">
-        <div className={container} style={{position: "relative"}}>           
-            <StaticImage 
-            alt="image manquante"
-            style={{position: "absolute", zIndex: "1"}} 
-            src="../images/star2.jpg"
-            className={imageBackg} />
-          <div className={card} style={{position: "relative", zIndex: "2"}}>
+<section id="contact" className={sectionBox}>
+  <div>
+    <StaticImage 
+      alt="image manquante"
+      src="../images/star2.jpg"
+      className={imageBackg}
+    />
+
+    <div className={card}>
       <StaticImage
         className={avatar} 
         src="../images/avatar-jc-4.png"
@@ -37,7 +38,7 @@ return (
 
       
     </div>
-        </div>
-    </section>
+  </div>
+</section>
 );
 }
