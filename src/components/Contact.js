@@ -6,7 +6,7 @@ import config from '../../config';
 export default function Contact() {
 
 return (
-<section id="projet">
+<section id="contact">
         <div className={container} style={{position: "relative"}}>           
             <StaticImage 
             alt="image manquante"

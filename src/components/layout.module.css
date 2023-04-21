@@ -94,6 +94,12 @@
     font-size: 1rem;
   }
 
+  .backFooter {
+    text-align: center;
+    margin: auto;
+    font-size: 0.8rem;
+  }
+
 
 }
 
