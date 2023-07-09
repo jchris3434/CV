@@ -18,7 +18,7 @@ import {
           <div className="container-fluid">
             <StaticImage
               className={`${walakIcon} d-none d-lg-block`}
-              src="../images/walak.png"
+              src="../images/exaprintLogo.jpg"
               alt="alien"
               width={50}
             />

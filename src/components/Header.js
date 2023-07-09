@@ -12,16 +12,16 @@ export default function Hero() {
     const timeoutId = setTimeout(() => {
       const helloIntervalId = setInterval(() => {
         setHelloText((prevText) => {
-          if (prevText === "HELLO") {
+          if (prevText === "BONJOUR") {
             clearInterval(helloIntervalId);
             const walaaxyIntervalId = setInterval(() => {
-              setWalaaxyText((prevText) => prevText + "WAALAXY".charAt(prevText.length));
-              if (walaaxyText === "WAALAXY") {
+              setWalaaxyText((prevText) => prevText + "EXAPRINT".charAt(prevText.length));
+              if (walaaxyText === "EXAPRINT") {
                 clearInterval(walaaxyIntervalId);
               }
             }, 250);
           }
-          return prevText + "HELLO".charAt(prevText.length);
+          return prevText + "BONJOUR".charAt(prevText.length);
         });
       }, 250);
     }, 1500);
